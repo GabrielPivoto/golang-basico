@@ -30,4 +30,15 @@ func main() {
 	fmt.Printf("%T \n", flag)
 	fmt.Printf("%T \n", stringEstranha)
 
+	fmt.Println("Soma = ", somar(1, 2))
+
+	//ou
+
+	outraSoma := somar(4, 5)
+	fmt.Println("Resultado da outra soma = ", outraSoma)
+
+}
+
+func somar(n1 int, n2 int) int {
+	return n1 + n2
 }
